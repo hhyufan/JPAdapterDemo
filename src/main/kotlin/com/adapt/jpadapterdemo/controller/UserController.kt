@@ -66,12 +66,12 @@ class UserController(
 
 
     @GetMapping("/")
-    fun platForm(model: Model): String {
+    fun platForm(): String {
         return "index"
     }
 
     @GetMapping("/success")
-    fun successPage(model: Model): String {
+    fun successPage(): String {
         return "loading"
     }
 
